@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 public class Utils extends BasePage
 {
-    public static void typeText(By by, String text){
+    public static void typeText(By by, String text) {
         driver.findElement(by).clear();
         driver.findElement(by).sendKeys(text);
     }
